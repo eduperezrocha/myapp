@@ -1,0 +1,6 @@
+- [ ] Consistent design for each house
+- [ ] Correct display on PC and mobile
+- [ ] Availability calendar
+- [ ] Landing page that shows photos of each house
+- [ ] Page that lists all houses currently available and their dates at "/availability"
+- [ ] An image generator that finds the house availability and its information. A simple image that can be sent via WhatsApp or email.

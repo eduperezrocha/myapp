@@ -12,3 +12,6 @@
 *.[hH][eE][iI][cC]
 *.[hH][eE][iI][fF]
 *.zip
+
+images/
+node_modules/
