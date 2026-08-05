@@ -42,16 +42,35 @@ The only server-side component is `formscript.php`, a PHP contact form handler u
 ├── 401.html / 404.html     # Error pages
 ├── TODO.md                 # Planned features / task list
 │
-├── *-house.html            # House detail pages (mixed Webflow + hand-coded)
-├── casa-*.html             # House detail pages (Webflow-exported, Spanish)
+├── pages/
+│   ├── contact.html        # Contact page (Webflow-exported, Spanish)
+│   ├── contact-us.html     # Contact page (Webflow-exported, English)
+│   ├── experiencia.html    # Experience page (Webflow-exported, Spanish)
+│   ├── experience.html     # Experience page (Webflow-exported, English)
+│   ├── detail_work.html    # Work detail page (Webflow-exported)
+│   └── houses/             # Individual house detail pages
+│       ├── black-house.html
+│       ├── blue-house.html
+│       ├── brown-house.html
+│       ├── green-house.html
+│       ├── white-house.html
+│       ├── casa-*.html     # Spanish versions
+│       └── ...
 │
 ├── css/
+│   ├── main.css            # Shared design tokens + base styles (TODO)
 │   ├── normalize.css       # CSS reset
 │   ├── webflow.css         # Webflow framework styles
 │   └── santa-homes.webflow.css  # Webflow-exported project styles
 │
 ├── js/
+│   ├── main.js             # Shared JS: nav, animations (TODO)
+│   ├── availability.js     # Calendar/list rendering (TODO)
 │   └── webflow.js          # Webflow JS runtime (~800KB)
+│
+├── data/
+│   ├── houses.json         # Single source of truth for all house info (TODO)
+│   └── availability.json   # Availability dates per house (TODO)
 │
 ├── images/
 │   ├── black-house/        # Photo gallery (WebP)

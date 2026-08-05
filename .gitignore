@@ -13,5 +13,8 @@
 *.[hH][eE][iI][fF]
 *.zip
 
-images/
+# macOS
+.DS_Store
+
+# Dependencies
 node_modules/

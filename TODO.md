@@ -4,3 +4,5 @@
 - [ ] Landing page that shows photos of each house
 - [ ] Page that lists all houses currently available and their dates at "/availability"
 - [ ] An image generator that finds the house availability and its information. A simple image that can be sent via WhatsApp or email.
+- [ ] Admin site
+- [ ] i18n instead of duped html
