@@ -1,4 +1,7 @@
-<?php require_once("../php/i18n.php") ?>
+<?php
+  require_once($_SERVER['DOCUMENT_ROOT'] . '/php/i18n.php');
+  $currentSite="experience";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

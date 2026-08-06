@@ -1,4 +1,8 @@
-<?php require_once("../php/i18n.php") ?>
+<?php
+  declare(strict_types=1);
+  require_once($_SERVER['DOCUMENT_ROOT'] . '/php/i18n.php');
+  $currentSite="contact";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
