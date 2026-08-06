@@ -18,3 +18,8 @@
 
 # Dependencies
 node_modules/
+
+# Dev tools
+.direnv/
+.envrc
+.nix-run/
