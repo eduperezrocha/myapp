@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+
+msgid "home"
+msgstr "Home"
+
+msgid "experience"
+msgstr "Experience"
+
+msgid "contact"
+msgstr "Contact"
+
+msgid "menu"
+msgstr "Menu"
