@@ -1,3 +1,4 @@
+<?php require_once("./php/i18n.php") ?>
 <!DOCTYPE html>
 <html lang="es">
 
