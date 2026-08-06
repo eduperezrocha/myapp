@@ -1,6 +1,6 @@
 <nav class="nav">
   <a href="/index.php">
-    <img src="/images/branding/logo.png" alt="SanTa Homes" class="nav-logo">
+    <img src="/images/branding/wordmark.webp" alt="SanTa Homes" class="nav-logo">
   </a>
   <div class="nav-links">
     <a href="/index.php" class="active">Inicio</a>
