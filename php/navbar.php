@@ -1,6 +1,7 @@
 <nav class="nav">
   <a href="/index.php">
-    <img src="/images/branding/wordmark.webp" alt="SanTa Homes" class="nav-logo">
+    <img src="/images/branding/wordmark.svg" alt="SanTa Homes" class="nav-wordmark">
+    <img src="/images/branding/logo.svg" alt="SanTa Homes" class="nav-logo">
   </a>
   <div class="nav-links">
     <a href="/index.php" <?php echo($currentSite == "index" ? 'class="active"' : ""); ?> >Inicio</a>

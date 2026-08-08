@@ -64,7 +64,13 @@ body {
 }
 
 .nav-logo {
+  display: none;
+}
+
+.nav-wordmark {
   height: 75px;
+  width: auto;
+  max-width: 200px;
 }
 
 .nav-logo span {
@@ -656,11 +662,9 @@ body {
   gap: 20px;
 }
 
-.footer-brand {
-  font-family: var(--heading);
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--warm-white);
+.footer-logo {
+  width: 170px;
+  height: auto;
 }
 
 .footer-brand span {
@@ -675,24 +679,17 @@ body {
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
-  .nav-links {
+  .nav-wordmark {
     display: none;
   }
 
-  .nav-hamburger {
-    display: flex;
-  }
-
-  .env-layout {
-    grid-template-columns: 1fr;
+  .nav-logo {
+    display: block;
+    height: 30px;
   }
 
   .houses-grid {
     grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    font-size: 3rem;
   }
 
   .footer {
